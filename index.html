@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Telmark Studios is creating Dairy World, a colorful liquid-sorting puzzle game. Get in touch for support and updates.">
+  <meta name="theme-color" content="#21584b">
+  <title>Telmark Studios · Dairy World</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root { color-scheme: light; font-family: ui-rounded, "Segoe UI", system-ui, sans-serif; color: #214b3f; background: #f6f4e7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; background: radial-gradient(ellipse at 12% 0, #dbead9, transparent 65%), #f6f4e7; }
+    a { color: inherit; }
+    a:focus-visible { outline: 3px solid #b76b1b; outline-offset: 5px; }
+    .skip { position: absolute; left: 16px; top: -100px; padding: 12px; background: white; z-index: 1; }
+    .skip:focus { top: 12px; }
+    .shell { max-width: 1080px; margin: auto; padding: 28px clamp(20px, 5vw, 64px); }
+    header { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; padding: 12px 0 44px; }
+    .studio { font-weight: 800; letter-spacing: -.03em; font-size: 22px; text-decoration: none; }
+    .contact-link { text-underline-offset: 5px; font-size: 15px; }
+    main { overflow: hidden; background: #fffdf3; border: 1px solid #d6d8ba; border-radius: 28px; box-shadow: 0 20px 64px #214b3f10; }
+    .hero { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 24px; padding: clamp(28px, 6vw, 64px); }
+    .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 12px; letter-spacing: .12em; }
+    .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #59915d; }
+    h1 { margin: 22px 0 18px; font-size: clamp(36px, 5.5vw, 58px); line-height: 1.08; letter-spacing: -.045em; font-weight: 800; }
+    .intro { max-width: 34ch; font-size: 18px; line-height: 1.65; color: #4c695a; }
+    .button { display: inline-block; margin-top: 12px; padding: 15px 24px; border-radius: 12px; background: #21584b; color: #fffdf3; text-decoration: none; font-weight: 700; }
+    .button:hover { background: #143e34; }
+    .art { display: grid; place-items: center; min-height: 300px; border-radius: 50%; background: radial-gradient(circle, #eff2cc 10%, #e2ecd7 58%, transparent 59%); }
+    .art img { width: 100%; max-width: 330px; height: auto; display: block; }
+    .details { border-top: 1px solid #e1e2c9; padding: 25px clamp(28px, 6vw, 64px); display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    .details p { margin: 0; line-height: 1.6; color: #4c695a; }
+    .details a { overflow-wrap: anywhere; text-underline-offset: 4px; }
+    footer { padding: 28px 0; font-size: 13px; color: #5c7364; }
+    @media (max-width: 680px) {
+      header { padding-bottom: 26px; }
+      .hero { grid-template-columns: 1fr; gap: 8px; }
+      .art { min-height: 210px; grid-row: 1; }
+      .art img { max-width: 240px; }
+      h1 { max-width: 12ch; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="shell">
+    <header>
+      <a class="studio" href="./" aria-label="Telmark Studios home">Telmark Studios</a>
+      <a class="contact-link" href="mailto:contact@telmarkstudios.com">Get in touch</a>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="game-heading">
+        <div>
+          <span class="eyebrow">IN DEVELOPMENT</span>
+          <h1 id="game-heading">A fresh little world of puzzles.</h1>
+          <p class="intro">Meet Dairy World. Sort colorful flavors, solve playful puzzles, and discover your farm companions.</p>
+          <a class="button" href="mailto:contact@telmarkstudios.com">Contact the studio</a>
+        </div>
+        <div class="art"><img src="dairy-world-logo.webp" alt="Dairy World" width="330" height="330"></div>
+      </section>
+      <section class="details" aria-label="Development and support">
+        <p>Dairy World is currently in development.<br>Launch details will follow here.</p>
+        <a href="mailto:contact@telmarkstudios.com">contact@telmarkstudios.com</a>
+      </section>
+    </main>
+    <footer>Telmark Studios · Dairy World</footer>
+  </div>
+</body>
+</html>
