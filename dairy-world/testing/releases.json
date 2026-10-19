@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "applicationId": "com.telmarkstudios.dairyworld",
+  "track": "closed-alpha",
+  "releases": [
+    {
+      "build": 157,
+      "version": "2.0.0",
+      "status": "available",
+      "developerToolsEnabled": false,
+      "groupAccessConfirmed": true,
+      "availableAt": "2026-10-19T14:12:00Z",
+      "installUrl": "https://play.google.com/apps/testing/com.telmarkstudios.dairyworld",
+      "notes": [
+        "The Dairy World closed Alpha test is now available for invited adult testers in the EU/EEA.",
+        "This release includes updated age safety and family controls. Live advertising and real-money purchases remain disabled.",
+        "Please send bugs and feedback to contact@telmarkstudios.com."
+      ]
+    }
+  ]
+}
