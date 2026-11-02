@@ -31,6 +31,20 @@
         "Daily, weekly and all-time streak rankings, a clearer wallet display and improved bottle spacing are included, along with battery and security fixes.",
         "Your progress is retained. Rewarded ads still use test ads; live advertising and real-money purchases remain off. Please send bugs and feedback to contact@telmarkstudios.com."
       ]
+    },
+    {
+      "build": 261,
+      "version": "1.0.0-beta",
+      "status": "available",
+      "developerToolsEnabled": false,
+      "groupAccessConfirmed": true,
+      "availableAt": "2026-11-02T23:31:10Z",
+      "installUrl": "https://play.google.com/apps/testing/com.telmarkstudios.dairyworld",
+      "notes": [
+        "Quick Match and hosting now work independently of saved campaign rounds and syncing. Reconnect resumes opponent search or hosting.",
+        "Shakers pour consecutive eligible flavours in one action and one move, with matching campaign puzzles and one-action Undo.",
+        "Adds parental purchase controls while preserving shared heart costs and saved progress. Live purchases and live ads remain off; rewarded ads still use test ads."
+      ]
     }
   ]
 }
