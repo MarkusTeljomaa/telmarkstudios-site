@@ -45,6 +45,20 @@
         "Shakers pour consecutive eligible flavours in one action and one move, with matching campaign puzzles and one-action Undo.",
         "Adds parental purchase controls while preserving shared heart costs and saved progress. Live purchases and live ads remain off; rewarded ads still use test ads."
       ]
+    },
+    {
+      "build": 263,
+      "version": "1.0.0-beta",
+      "status": "available",
+      "developerToolsEnabled": false,
+      "groupAccessConfirmed": true,
+      "availableAt": "2026-11-03T13:46:08Z",
+      "installUrl": "https://play.google.com/apps/testing/com.telmarkstudios.dairyworld",
+      "notes": [
+        "Fixes campaign startup so new-install progress, victory bonus spins and heart recharge settle correctly with the game account.",
+        "Repairs affected retained saves: keep the app installed and complete level 1 once so later saved wins can be verified. Keeps downloaded offline play and PvP independent.",
+        "Metal canisters receive flavour labels only when full outside tutorials. Rewarded ads use test ads; live ads and real-money purchases remain disabled."
+      ]
     }
   ]
 }
