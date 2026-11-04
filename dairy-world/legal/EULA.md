@@ -1,0 +1,88 @@
+# Dairy World End User License Agreement
+
+**Status: Published.**
+
+**Document version: 1.1 | Prepared: 4 November 2026**
+
+**Effective date: 4 November 2026**
+
+This End User License Agreement (EULA) governs the software license for Dairy World, including authorized updates, downloadable game assets and accompanying documentation (the Game). The licensor is **Markus Teljomaa, independently publishing as Telmark Studios in Finland** (we, us, our). This does not imply that a company has been established.
+
+| Publisher contact | Details |
+| --- | --- |
+| Contracting publisher identity | Markus Teljomaa, independently publishing as Telmark Studios |
+| Brand | Telmark Studios; currently a private-person publisher |
+| Country of establishment | Finland |
+| Business ID and public register, if applicable | Individual publisher; no company publisher has been declared |
+| Public geographic postal address | Leikosaarentie 28B 59, 00990 Helsinki, Finland |
+| Support and legal email | contact@telmarkstudios.com |
+| Contact telephone | +358 50 501 7400 |
+
+Read this EULA together with the [Dairy World Terms of Use](TERMS_OF_USE.md), which govern gameplay, online services, purchases and disputes. References to the Terms mean the version supplied with this EULA when you accept it. Your mandatory legal rights always take priority.
+
+## 1 Acceptance and children
+
+We must give you a reasonable opportunity to read and save these documents before asking you to accept them. They become binding through a legally valid acceptance process; merely placing a link somewhere does not establish your agreement. If you do not accept, do not install or use the Game; you may still exercise any cancellation or refund rights you have.
+
+The Game is intended for players aged seven and above, subject to local requirements and the applicable store rating. If you cannot legally enter this agreement yourself, a parent or legal guardian must review it and give any authorization required by law. An adult accepting for a child must have authority to do so. Nothing makes a child responsible for an obligation they cannot legally undertake. Contract acceptance does not itself authorize processing children's personal data. The Terms explain these distinctions.
+
+## 2 Your license
+
+Subject to this EULA, the Terms, and any rights that cannot lawfully be restricted, we grant you a limited, personal, non-exclusive license to install and use an authorized copy for your own entertainment on compatible devices you own or control. You may make a backup where permitted by law or the distributing store. The license continues until validly terminated under section 7.
+
+You may transfer the license only where applicable law gives you that right, we authorize it in writing, or the distributing platform expressly permits it. Authorized family or household use follows the platform's rules and does not authorize selling or sharing an online account.
+
+## 3 Ownership and permitted sharing
+
+The Game is licensed, rather than sold as intellectual property. We and our licensors retain rights in its code, artwork, sound, characters, names and other protected material. Buying a virtual item grants the relevant in-game entitlement; it does not transfer copyright or trademark ownership.
+
+You may share your own screenshots and gameplay recordings, including monetized reviews, streams and walkthroughs, provided you follow platform rules, respect other people's rights and privacy, and do not imply our endorsement. This permission does not authorize distributing standalone assets, soundtracks, source code or playable copies. Separate third-party music or other material may require permission from its rights holder. Nothing limits quotation, criticism, parody, accessibility uses or other statutory exceptions. Any withdrawal of our discretionary sharing permission applies prospectively, on reasonable notice, except where an immediate response to unlawful use is necessary.
+
+## 4 License restrictions
+
+Except as permitted by law, an applicable third-party license, or our written permission, you must not:
+
+- Redistribute, sublicense, rent, sell or commercially exploit the Game or extracted assets outside the permission in section 3.
+- Copy substantial protected parts, remove ownership notices, or create and distribute unauthorized derivative games.
+- Reverse engineer, decompile or disassemble the Game, or bypass protection measures. This does not restrict mandatory rights concerning interoperability, lawful analysis, repair, security research or other legally protected activity.
+- Use unauthorized software, modified clients or automation to manipulate purchases, inventory, rewards, results or competitive play, or interfere with our systems or other players.
+- Use leaked signing keys, stolen credentials or unauthorized copies to access services.
+
+The Terms contain additional rules for online play. An authorized accessibility tool that does not falsify game actions or provide an unfair competitive advantage is not prohibited merely because it assists access.
+
+## 5 Updates and third-party software
+
+We may supply fixes, security updates and compatible improvements. We will supply updates required by law and explain material installation requirements. Online features may require a current compatible version. Changes to paid features, required notices and your remedies are governed by the Terms; this section does not authorize arbitrary removal of purchased benefits.
+
+Open-source components and other third-party materials remain subject to their own license notices, available through the distribution's license information. If a component's license grants broader rights, those rights apply to that component. This EULA does not claim ownership of third-party material or restrict rights its license grants you.
+
+## 6 Legal protections and responsibility
+
+The Terms' sections 11 through 17, covering service changes, termination, guarantees, liability, privacy, amendments and disputes, also apply to this EULA. No disclaimer removes mandatory consumer guarantees, required security updates, rights relating to defective digital content, or liability that cannot legally be limited. We do not guarantee uninterrupted online play or compatibility with every device, beyond our advertised commitments and applicable law.
+
+## 7 Termination
+
+You may stop using the Game and terminate your license at any time by uninstalling your copies. Uninstalling does not itself submit a refund or data-deletion request.
+
+We may terminate for a serious or repeated material breach only through the proportionate process in section 12 of the Terms. A minor breach does not automatically end all paid or offline access. On valid termination, stop the uses covered by the terminated license and remove the affected copies, except for copies or continued access that law permits you to retain. Refund, privacy, dispute and other accrued rights survive. Provisions intended to continue, including ownership and lawful limitations of responsibility, survive only to the extent applicable.
+
+## 8 Apple distribution conditions
+
+For an Apple-supplied copy, these additional provisions apply:
+
+- You contract with us. We bear responsibility for the Game and its contents; Apple is not the licensor under this EULA.
+- This license cannot be transferred. Use is on Apple hardware you own or control under Apple's Usage Rules, including permitted Family Sharing or volume purchasing.
+- We provide required support and maintenance; Apple owes neither.
+- If the Game breaches an applicable warranty, notify Apple for reimbursement of its purchase price. Other warranty duties, losses and related costs fall to us, insofar as law allows.
+- We handle claims concerning the Game, including product safety, regulatory compliance, privacy and consumer protection, and investigate, defend and resolve third-party intellectual-property infringement claims.
+- You confirm you are outside US-embargoed or US-designated terrorism-supporting territories and absent from US prohibited-party lists.
+- Observe applicable third-party agreements when using the Game.
+- Apple and its subsidiaries may enforce this EULA as third-party beneficiaries upon your acceptance.
+
+These conditions do not diminish mandatory rights or override Apple's applicable Usage Rules. Direct Game complaints to our contact details above. Apple's own purchasing terms govern its transaction services.
+
+## 9 Relationship between documents
+
+Mandatory law controls any conflict. Applicable mandatory store rules govern the relevant distribution; the Apple conditions above govern Apple-specific license matters. Specific purchase disclosures and express commitments govern the purchased benefit. Otherwise this EULA governs software licensing and the Terms govern service use. Neither document silently overrides a stronger promise we made to you.
+
+Finnish governing law, protection of your home-country consumer rights, the complaints process and access to competent courts are stated in section 17 of the Terms. This EULA introduces no compulsory arbitration or waiver of collective remedies.
