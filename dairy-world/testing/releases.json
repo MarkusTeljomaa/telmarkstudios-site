@@ -74,6 +74,18 @@
         "Sync feedback now distinguishes restored progress, completed backup and pending achievements or rankings.",
         "Rewarded ads use test ads; live ads and real-money purchases remain off."
       ]
+    },
+    {
+      "build": 354,
+      "version": "1.6.1-early-access",
+      "status": "available",
+      "developerToolsEnabled": false,
+      "groupAccessConfirmed": true,
+      "availableAt": "2026-11-15T15:53:16Z",
+      "installUrl": "https://play.google.com/apps/testing/com.telmarkstudios.dairyworld",
+      "notes": [
+        "Levels load with chapter art and music. Score stars appear as you reach each threshold, with new win and loss voice lines. Cream and King passes have their own cards and separate reward claims. This update also improves animation smoothness and fixes a PvP crash when reopening."
+      ]
     }
   ]
 }
