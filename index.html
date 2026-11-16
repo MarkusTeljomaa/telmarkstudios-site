@@ -7,12 +7,13 @@
   <meta name="theme-color" content="#21584b">
   <title>Telmark Studios · Dairy World</title>
   <link rel="icon" href="favicon.ico">
+  <script src="ads-measurement.js" defer></script>
   <style>
     :root { color-scheme: light; font-family: ui-rounded, "Segoe UI", system-ui, sans-serif; color: #214b3f; background: #f6f4e7; }
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100svh; background: radial-gradient(ellipse at 12% 0, #dbead9, transparent 65%), #f6f4e7; }
     a { color: inherit; }
-    a:focus-visible { outline: 3px solid #b76b1b; outline-offset: 5px; }
+    :is(a, button):focus-visible { outline: 3px solid #b76b1b; outline-offset: 5px; }
     .skip { position: absolute; left: 16px; top: -100px; padding: 12px; background: white; z-index: 1; }
     .skip:focus { top: 12px; }
     .shell { max-width: 1080px; margin: auto; padding: 28px clamp(20px, 5vw, 64px); }
@@ -33,6 +34,12 @@
     .details p { margin: 0; line-height: 1.6; color: #4c695a; }
     .details a { overflow-wrap: anywhere; text-underline-offset: 4px; }
     footer { padding: 28px 0; font-size: 13px; color: #5c7364; }
+    .privacy-settings { background: none; border: 0; padding: 0; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
+    .ad-consent { position: fixed; z-index: 2; inset: auto 16px 16px; max-width: 520px; max-height: calc(100dvh - 32px); overflow: auto; margin-left: auto; padding: 18px; border: 1px solid #d6d8ba; border-radius: 16px; background: #fffdf3; box-shadow: 0 8px 32px #214b3f30; }
+    .ad-consent h2 { margin: 0; font-size: 18px; }
+    .ad-consent p { margin: 8px 0 14px; line-height: 1.45; }
+    .consent-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+    .consent-actions button { border: 1px solid #21584b; border-radius: 8px; background: #edf7f3; color: #214b3f; padding: 10px 14px; font: inherit; font-weight: 700; cursor: pointer; }
     @media (max-width: 680px) {
       header { padding-bottom: 26px; }
       .hero { grid-template-columns: 1fr; gap: 8px; }
@@ -64,7 +71,15 @@
         <a href="mailto:contact@telmarkstudios.com">contact@telmarkstudios.com</a>
       </section>
     </main>
-    <footer>Telmark Studios · Dairy World · <a href="dairy-world/terms/">Terms and Conditions</a> · <a href="dairy-world/eula/">End User License Agreement</a> · <a href="dairy-world/privacy/">Privacy policy</a> · <a href="dairy-world/delete-account/">Delete account</a></footer>
+    <footer>Telmark Studios · Dairy World · <a href="dairy-world/terms/">Terms and Conditions</a> · <a href="dairy-world/eula/">End User License Agreement</a> · <a href="dairy-world/privacy/">Privacy policy</a> · <a href="dairy-world/delete-account/">Delete account</a><span id="ad-settings-link" hidden> · <button type="button" class="privacy-settings" id="ad-settings" aria-controls="ad-consent" aria-expanded="false">Privacy settings</button></span></footer>
+    <section class="ad-consent" id="ad-consent" aria-labelledby="ad-consent-heading" hidden>
+      <h2 id="ad-consent-heading" tabindex="-1">Advertising measurement</h2>
+      <p>If you allow it, Google Ads can use cookies, ad click information and your IP address to measure visits from Dairy World ads. You can change your choice in Privacy settings. <a href="dairy-world/privacy/#website-measurement">Learn more</a>.</p>
+      <div class="consent-actions">
+        <button type="button" id="ad-decline">Decline</button>
+        <button type="button" id="ad-allow">Allow measurement</button>
+      </div>
+    </section>
   </div>
 </body>
 </html>
