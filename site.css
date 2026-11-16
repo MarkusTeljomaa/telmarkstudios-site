@@ -1,0 +1,104 @@
+:root {
+  color-scheme: light;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  color: #173c32;
+  background: #fbf6e9;
+  --green: #173c32;
+  --green-deep: #112f26;
+  --cream: #fffaf0;
+  --muted: #4a5e50;
+  --gold: #efc773;
+  --line: #dfd7be;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; line-height: 1.55; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-underline-offset: .2em; }
+a:focus-visible, button:focus-visible { outline: 3px solid #a75614; outline-offset: 4px; }
+[hidden] { display: none !important; }
+.skip { position: absolute; z-index: 5; left: 12px; top: 12px; transform: translateY(-150%); background: white; color: var(--green); padding: 10px 14px; }
+.skip:focus { transform: none; }
+.wrap { width: min(100% - 48px, 1160px); margin-inline: auto; }
+
+.site-header { border-bottom: 1px solid var(--line); background: var(--cream); }
+.header-row { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { font-weight: 900; font-size: 1.08rem; text-decoration: none; }
+.site-nav, .footer-nav, .actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 22px; }
+.site-nav a, .footer-nav a { text-decoration-thickness: 1px; }
+.site-nav a[aria-current] { font-weight: 800; text-decoration-thickness: 2px; }
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  color: var(--cream);
+  background-color: var(--green-deep);
+  background-image: linear-gradient(90deg, #112e24 6%, #132e25ed 44%, #1632252e 100%), url("dairy-world/assets/farm-landscape.webp");
+  background-position: center, 54% 58%;
+  background-size: cover;
+}
+.hero::after { content: ""; position: absolute; z-index: -1; inset: auto 0 0; height: 26%; background: linear-gradient(transparent, #132c25a8); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: clamp(28px, 7vw, 108px); align-items: center; padding-block: clamp(48px, 7vw, 96px); }
+.hero-logo { width: clamp(154px, 24vw, 226px); margin-bottom: 24px; }
+h1, h2, h3, p { margin: 0; }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 700; line-height: 1.02; letter-spacing: -.035em; text-wrap: balance; }
+h1 { font-size: clamp(3rem, 6.6vw, 6.4rem); }
+h2 { font-size: clamp(2.1rem, 4vw, 3.6rem); }
+h3 { font-size: 1.22rem; line-height: 1.2; }
+.hero-copy > p { max-width: 47ch; margin-block: 17px 26px; font-size: clamp(1.05rem, 2vw, 1.23rem); color: #fff3db; }
+.hero-media { justify-self: center; width: min(100%, 340px); }
+.hero-media img { border-radius: 22px; border: 2px solid var(--gold); box-shadow: 0 20px 54px #0b211c9e; }
+.game-hero .hero-media { width: min(100%, 292px); }
+.button { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; padding: 10px 20px; border: 1px solid transparent; border-radius: 8px; font-weight: 800; text-decoration: none; text-align: center; }
+.button:hover { text-decoration: underline; }
+.button-gold { background: var(--gold); color: #272415; border-color: #f9de9f; }
+.button-outline { border-color: #f3e6c8; color: var(--cream); background: #10281bbb; }
+.button-green { color: var(--cream); background: var(--green); }
+.hero a:focus-visible { outline-color: #fff1cb; }
+
+.site-section { padding-block: clamp(42px, 7vw, 94px); }
+.section-copy { max-width: 57ch; margin-top: 15px; color: var(--muted); font-size: 1.1rem; }
+.section-copy + .button { margin-top: 20px; }
+.home-story { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: clamp(20px, 6vw, 80px); }
+.home-story img { width: min(100%, 250px); justify-self: center; border: 1px solid var(--line); border-radius: 18px; transform: rotate(3deg); }
+.screens { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 3vw, 32px); margin: 30px 0 0; }
+.screen-card { overflow: hidden; display: flex; flex-direction: column; background: var(--cream); border: 1px solid var(--line); border-radius: 18px; }
+.screen-card img { width: 100%; }
+.screen-copy { padding: 18px; }
+.screen-copy p { color: var(--muted); margin-top: 8px; }
+.download { background: #e3eddd; border-block: 1px solid #cbdbc5; }
+.download-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 26px 60px; }
+.download .button { margin-top: 20px; }
+.qr { display: block; width: min(100%, 216px); justify-self: center; background: white; padding: 8px; border: 1px solid #c5d4bd; border-radius: 14px; }
+.qr img { width: 100%; border-radius: 8px; }
+
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); background: var(--cream); font-size: .9rem; }
+.footer-row { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 16px 30px; padding-block: 27px; }
+.footer-nav { gap: 8px 15px; }
+.privacy-settings { background: none; border: 0; padding: 0; color: inherit; font: inherit; text-decoration: underline; text-underline-offset: .2em; cursor: pointer; }
+.ad-consent { position: fixed; z-index: 3; inset: auto 16px 16px; max-width: 510px; max-height: calc(100dvh - 32px); overflow: auto; margin-left: auto; padding: 18px; border: 1px solid #c8bc9a; border-radius: 14px; background: var(--cream); box-shadow: 0 8px 32px #18332938; }
+.ad-consent h2 { font: 800 1.11rem/1.3 "Trebuchet MS", "Segoe UI", sans-serif; letter-spacing: normal; }
+.ad-consent p { margin: 8px 0 14px; line-height: 1.45; }
+.consent-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.consent-actions button { min-height: 44px; border: 1px solid var(--green); border-radius: 8px; background: #edf7f3; color: var(--green); padding: 9px 14px; font: inherit; font-weight: 700; cursor: pointer; }
+
+@media (max-width: 760px) {
+  .wrap { width: min(100% - 32px, 1160px); }
+  .hero { background-image: linear-gradient(180deg, #112e24 8%, #112e24e8 44%, #1632254d 100%), url("dairy-world/assets/farm-landscape.webp"); background-position: center, 62% center; }
+  .hero-grid { grid-template-columns: minmax(0, 1fr); padding-top: 36px; }
+  .hero-media { width: min(100%, 269px); }
+  .game-hero .hero-media { width: min(100%, 225px); }
+  .screens { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 510px) {
+  .header-row { min-height: 60px; }
+  .site-nav { gap: 7px 12px; font-size: .88rem; }
+  .home-story, .download-grid { grid-template-columns: minmax(0, 1fr); }
+  .home-story img { width: min(100%, 210px); }
+  .download .qr { justify-self: start; }
+}
+@media (max-width: 430px) {
+  .screens { grid-template-columns: minmax(0, 1fr); }
+  .screen-card { display: grid; grid-template-columns: minmax(0, .88fr) minmax(0, 1fr); align-items: center; }
+  .screen-copy { padding: 12px; }
+}
